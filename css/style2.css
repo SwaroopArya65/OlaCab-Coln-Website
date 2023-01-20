@@ -1,0 +1,132 @@
+/*aboutpag ,freature ,contactUs page*/
+
+/*About styling start*/
+#aboutBanner{
+    background-image: url("../images/aboutimg1.jpg");
+
+    width: 100%;
+    height:490px;
+    background-position: center;
+    background-size: cover;
+    
+
+
+}
+#aboutBanner-text{
+    
+    position: relative;
+     
+
+    top: 170px;
+}
+/*About styling end*/
+
+
+/*feature Stlyling start*/
+
+
+/*feature banner start*/
+#freatureBanner{
+    background-image: url("../images/feature.jpg");
+
+    width: 100%;
+    height:490px;
+    background-position: center;
+    background-size: cover;
+
+}
+#freatureBanner-text{
+    position: relative;
+
+
+    top: 120px;
+}
+/*feature banner end*/
+
+
+/*variour travel property start*/
+
+.icon-size{
+    font-size: 2.5em;
+    margin-top: 0px;
+    margin-left: 20%;
+}
+@media only screen and (max-width:768px){
+    #search-form{
+        padding-left: 8% !important;
+    }
+    #search-box{
+        padding-left: 2% !important;
+        padding-right: 45% !important;
+
+    }
+    #search-btn{
+        left: -15% !important;
+    }
+    #freature-banner-heading{
+        font-size: 1.6em !important;
+    }
+    
+
+}
+@media only screen and (max-width:768px){
+    .feature-property-div{
+        width: 100% !important;
+
+    }
+}
+
+/*variour travel property end*/
+
+
+/*freature staling end*/
+
+
+
+
+/*support page style start*/
+
+
+#supportBanner{
+    background-color:#bdbdbd ;
+    width: 100%;
+    height:200px;
+    background-position: center;
+    background-size: cover;
+
+
+}
+#supportBanner-text{
+
+    position: relative;
+
+
+    top: 5px;
+}
+#search-form{
+    padding-left: 2%;
+}
+
+#search-box{
+    padding-left: 4%;
+    padding-right: 35%;
+    padding-top: 6px;
+    padding-bottom: 9px;
+
+}
+#search-btn{
+    margin-top: 1px;
+    padding-top: 7x;
+    padding-bottom: 9px;
+    border-radius: 0px;
+    position: absolute;
+    left: 75%;
+    background-color: white;
+    
+}
+
+
+
+/*support page style end*/
+
+

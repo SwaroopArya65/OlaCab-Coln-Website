@@ -1,0 +1,59 @@
+body{
+    background: #EEECEB;
+}
+.label-style{
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-style{
+    border-radius: 0px;
+}
+.input-style:hover{
+    border-color: greenyellow;
+}
+.mysytle{
+    border-color: yellow;
+}
+#phone{
+    width: 183% !important;
+    margin: auto;
+}
+@media only screen and (max-width:810px){
+    #phone{
+        width: 146% !important ;
+    }
+}
+@media only screen and (max-width:768px){
+    #phone{
+        width: 139% !important ;
+    }
+}
+@media only screen and (max-width:428px){
+    #phone{
+        width: 159.5% !important ;
+    }
+    #lastName-input{
+        margin-left: 2% !important;
+    }
+}
+@media only screen and (max-width:414px){
+    #phone{
+        width: 154.5% !important ;
+    }
+}
+@media only screen and (max-width:390px){
+    #phone{
+        width: 145.5% !important ;
+    }
+}
+
+@media only screen and (max-width:375px){
+    #phone{
+        width: 130% !important ;
+    }
+}
+@media only screen and (max-width:360px){
+    #phone{
+        width: 129% !important ;
+    }
+}

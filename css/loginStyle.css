@@ -1,0 +1,18 @@
+body{
+    background: #EEECEB;
+}
+.label-style{
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-style{
+    border-radius: 0px;
+}
+.input-style:hover{
+    border-color: greenyellow;
+}
+.mysytle{
+    border-color: yellow;
+}
+
+

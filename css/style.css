@@ -1,0 +1,701 @@
+/*navbar styling start*/
+
+.nav-link {
+    color: white;
+
+
+}
+.nav-item{
+    padding-left: 15px;
+}
+#navbar-container{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.nav-item a{
+    border-radius: 40px;
+}
+.navbar-nav li ul li a{
+    color: #9e9e9e;
+}
+
+.nav-item a:hover{
+    color: white;
+    border: 0px solid #424242;
+    background-color: #424242;
+    border-radius: 40px;
+}
+
+
+.navbar-nav li ul li a:hover{
+    border-radius: 0;
+    background-color:#eeeeee ;
+    margin-top: 0px;
+    color: black;
+}
+#booknow-btn{
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+#booknow-btn{
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+#login-btn{
+    border: 0px;
+    border-radius: 40px;
+
+}
+#signup-btn{
+    border: 0px;
+    border-radius: 40px;
+}
+#login-btn:hover{
+    background-color: #424242;
+}
+#signup-btn:hover{
+    background-color: #424242;
+}
+
+@media only screen and (max-width:950px){
+
+    #login-btn{
+        color: black !important;
+
+        background-color: white;
+        position: relative;
+        left: 221px; ;
+
+    }#signup-btn{
+
+        color: black !important;
+        background-color: white;
+        position: relative;
+        left: 275px;
+
+    }
+    #booknow-btn{
+        position: relative;
+        left: 323px;
+    }
+
+}
+
+
+@media only screen and (max-width:850px){
+
+    #top-nav{
+        padding-bottom: 20px
+    }
+
+    #login-btn{
+        color: black !important;
+
+        background-color: white;
+        position: relative;
+        left:200px ;
+
+    }#signup-btn{
+
+        color: black !important;
+        background-color: white;
+        position: relative;
+        left: 250px;
+
+    }
+    #booknow-btn{
+        position: relative;
+        left: 300px;
+    }
+}
+
+
+@media only screen and (max-width:550px){
+
+    #login-btn {
+
+        margin-left: -116px;
+    }
+    #signup-btn {
+
+        margin-left: -36px;
+    }
+    #booknow-btn{
+        margin-left: -15px;
+    }
+
+
+}
+
+@media only screen and (max-width:450px){
+
+    #top-nav{
+        padding-bottom: 20px
+    }
+    .nav-btn{
+        display: block;
+        border-radius: 0px;
+        text-align: center;
+        margin-left: -12px;
+        position: relative;
+        left: -200px;
+
+    }
+    #login-btn{
+        padding-top:7px ;
+        padding-right:12px ;
+        padding-bottom:7px ;
+        padding-left: 10px;
+        position: relative;
+        margin-left: 30px
+
+    }
+    #signup-btn{
+        padding-top:7px ;
+        padding-right:12px ;
+        padding-bottom:7px ;
+        padding-left: 12px;
+        margin-left: -10px;
+    }
+    #booknow-btn{
+        margin-left: -15px;
+    }
+    .nav-item a{
+        border-radius: 0px;
+    }
+    .nav-item a:hover{
+        color: white;
+        border: 0px solid #424242;
+        background-color: #424242;
+        border-radius: 0px;
+    }
+    .navbar-nav li ul li a:hover{
+        border-radius: 0;
+        background-color:#e0e0e0 ;
+        margin-top: 0px;
+
+    }
+}
+
+
+
+
+/*navbar styling end*/
+
+
+
+
+
+/*banner start*/
+#banner{
+    background-image: url("../images/img1.jpg");
+    width: 100%;
+    height:650px !important;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width:500px){
+    #banner-heading{
+        font-size: 18px;
+
+    }
+    #banner-para{
+        font-size: 12px !important;
+    }
+}
+
+
+/*search cabs section*/
+
+
+
+#booknow-nav{
+    border-bottom: 1px solid #eeeeee;
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px
+
+}
+.anchor-black{
+    color: black;
+
+}
+.anchor-black:hover{
+    color:greenyellow ;
+}
+#booknow-banner ul li a:hover{
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+    color: #9ccc65;
+}
+
+
+#pickup-div{
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding-bottom: -5px;
+    padding-top: 5px;
+}
+#pickup{
+
+    display: inline-block;
+
+}
+#location{
+
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+#pickup p{
+    font-size: 10px;
+    text-align: center;
+
+}
+#location p{
+    padding-top: 5px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+
+
+
+
+#drop-div{
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding-bottom: -5px;
+    padding-top: 5px;
+}
+#drop{
+
+    display: inline-block;
+
+}
+#estimate{
+
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+#drop p{
+    font-size: 10px;
+    text-align: center;
+
+}
+#estimate p{
+    padding-top: 5px;
+    padding-left: 30px;
+    text-align: center;
+}
+/*hhlohopp*/
+
+#when-div{
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding-bottom: -5px;
+    padding-top: 5px;
+}
+#when{
+
+    display: inline-block;
+
+}
+#now-time{
+
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+#when p{
+    font-size: 10px;
+    text-align: center;
+
+}
+#estimate select{
+    padding-top: 5px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#select-menu{
+    background-color: transparent ;
+    display: inline-block;
+    width: 85%;
+}
+
+#search-cabs-div{
+    border-bottom-color:8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+
+#citytexty-li{
+    margin-left: -15px
+}
+#outs-li{
+    margin-left: 13px;
+}
+#rental-li{
+    margin-left: 25px;
+}
+
+
+
+/*responsiveness of search cabs section*/
+
+
+@media only screen and (max-width:1150px){
+
+
+    booknow-div{
+        width: 335px;
+    }
+    #booknow-top-div{
+        width: 43%;
+    }
+    #booknow-top-link{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #citytexty-li{
+        margin-left: -11px
+    }
+    #outs-li{
+        margin-left: 26px;
+    }
+    #rental-li{
+        margin-left: 37px;
+    }
+    #banner-booknow-body{
+        padding-top: 11px;
+    }
+
+
+
+    #select-menu{
+        width: 83%;
+    }
+
+}
+@media only screen and (max-width:1030px){
+
+
+    booknow-div{
+        width: 335px;
+    }
+    #booknow-top-div{
+        width: 43%;
+    }
+    #booknow-top-link{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #citytexty-li{
+        margin-left: -11px
+    }
+    #outs-li{
+        margin-left: 26px;
+    }
+    #rental-li{
+        margin-left: 37px;
+    }
+    #banner-booknow-body{
+        padding-top: 11px;
+    }
+
+
+
+    #select-menu{
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width:1010px){
+
+    booknow-div{
+        width: 335px;
+    }
+    #booknow-top-div{
+        width: 43%;
+    }
+    #booknow-top-link{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #citytexty-li{
+        margin-left: -11px
+    }
+    #outs-li{
+        margin-left: 26px;
+    }
+    #rental-li{
+        margin-left: 37px;
+    }
+    #banner-booknow-body{
+        padding-top: 11px;
+    }
+
+
+
+    #select-menu{
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width:950px){
+
+    booknow-div{
+        width: 335px;
+    }
+    #booknow-top-div{
+        width: 43%;
+    }
+    #booknow-top-link{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #citytexty-li{
+        margin-left: -11px
+    }
+    #outs-li{
+        margin-left: 26px;
+    }
+    #rental-li{
+        margin-left: 37px;
+    }
+    #banner-booknow-body{
+        padding-top: 11px;
+    }
+
+
+
+    #select-menu{
+        width: 83%;
+    }
+}
+
+
+@media only screen and (max-width: 428px){
+
+    #booknow-top-div{
+        width: 100% !important;
+        margin-left: -12px !important;
+    }
+    #citytexty-li{
+        margin-left: -5% !important;
+        font-size: 13px !important;
+    }
+
+    #outs-li{
+        margin-left: 58px !important;
+        font-size: 13px !important;
+
+    }
+    #rental-li{
+        margin-left: 68px !important;
+        font-size: 13px !important;
+
+    }
+}
+
+
+@media only screen and (max-width: 414px){
+
+    #citytexty-li{
+        margin-left: -8% !important;
+        font-size: 13px !important;
+    }
+
+}
+@media only screen and (max-width: 500px){
+
+
+    #citytexty-li{
+        margin-left: -11px !important;
+        font-size: 13px !important;
+    }
+    #outs-li{
+        margin-left: 66px !important;
+        font-size: 13px !important;
+    }
+    #rental-li{
+        margin-left: 66px !important;
+        font-size: 13px !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 390px){
+
+
+    #outs-li{
+        margin-left: 41px !important;
+        font-size: 13px !important;
+
+    }
+    #rental-li{
+        margin-left: 42px !important;
+        font-size: 13px !important;
+
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+
+    #outs-li{
+        margin-left: 41px !important;
+        font-size: 13px !important;
+
+    }
+    #rental-li{
+        margin-left: 42px !important;
+        font-size: 13px !important;
+
+    }
+}
+
+
+@media only screen and (max-width: 360px){
+
+    #banner-booknow-body{
+        padding-top: 10px !important;
+    }
+
+    #select-menu {
+        width: 80% !important;
+    }
+
+    #outs-li{
+        margin-left: 30px !important;
+        font-size: 13px !important;
+
+    }
+    #rental-li{
+        margin-left: 32px !important;
+        font-size: 13px !important;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width:831px){
+
+    booknow-div{
+        width: 330px;
+    }
+    #booknow-top-div{
+        width: 45%;
+    }
+    #booknow-top-link{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #citytexty-li{
+        margin-left: -8px;
+        font-size: 13px;
+    }
+    #outs-li{
+        margin-left: 26px;
+        font-size: 13px;
+    }
+    #rental-li{
+        margin-left: 37px;
+        font-size: 13px;
+    }
+    #banner-booknow-body{
+        padding-top: 11px;
+    }
+    #serchcar-hadd{
+        font-size: 17px;
+    }
+    #serchcar-para{
+        font-size: 11px;
+    }
+
+
+
+    #select-menu{
+        width: 81%;
+    }
+}
+
+
+
+
+@media only screen and (max-width:768px){
+
+    #booknow-top-link{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #citytexty-li{
+        margin-left: 2px;
+        font-size: 13px;
+    }
+    #outs-li{
+        margin-left: 192px;
+        font-size: 13px;
+    }
+    #rental-li{
+        margin-left: 221px;
+        font-size: 13px;
+    }
+    #banner-booknow-body {
+        padding-top: 25px;
+        padding-bottom: 11px !important;
+    }
+    #booknow-top-div{
+
+        width: 99.333%;
+    }
+}
+
+/*search cabsS section*/
+
+
+/*banner end*/
+
+
+/*why ride with travel section start*/
+
+/*responsiv font code*/
+
+@media only screen and (max-width:768px){
+
+    .font-heading{
+        font-size: 19px;
+    }
+    .font-para{
+        font-size: 12px;
+    }
+    
+   
+
+}
+
+/*why ride with travel section end*/
+
+
+
+
+
+
+/*About Travel section start*/
+
+/*About Travel section end*/
